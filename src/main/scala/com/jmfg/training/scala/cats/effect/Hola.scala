@@ -2,7 +2,7 @@ package com.jmfg.training.scala.cats.effect
 
 import cats.effect.IO
 
-object HelloWorld {
+object Hola {
 
-  def say(): IO[String] = IO.delay("Hello Cats!")
+  def saludo(): IO[String] = IO.delay("Hola Gatos!")
 }

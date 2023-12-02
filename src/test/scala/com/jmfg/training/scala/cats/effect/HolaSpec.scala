@@ -4,10 +4,10 @@ import cats.effect.IO
 import cats.effect.testing.specs2.CatsEffect
 import org.specs2.mutable.Specification
 
-class HelloWorldSpec extends Specification with CatsEffect {
+class HolaSpec extends Specification with CatsEffect {
   "examples" should {
     "say hello" in {
-      HelloWorld.say().map(_ === "Hello Cats!")
+      Hola.saludo().map(_ === "Hola Gatos!")
     }
   }
 }

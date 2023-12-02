@@ -3,9 +3,9 @@ package com.jmfg.training.scala.cats.effect
 import cats.effect.{IO, SyncIO}
 import munit.CatsEffectSuite
 
-class HelloWorldSuite extends CatsEffectSuite {
+class HolaSuite extends CatsEffectSuite {
 
   test("test hello world says hi") {
-    HelloWorld.say().map(it => assertEquals(it, "Hello Cats!"))
+    Hola.saludo().map(it => assertEquals(it, "Hola Gatos!"))
   }
 }

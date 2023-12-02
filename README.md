@@ -1,6 +1,10 @@
-# Joses Cats Effect 3 Training App
+# Jose's Cats Effect 3 Training App
 
-An example application built from the [ce3.g8 template](https://github.com/typelevel/ce3.g8).
+An application that follows the Rock the JVM Cats Effect 3 Training.
+
+Most documentation is in Spanish.
+
+Cats 3 documentation: <https://typelevel.org/cats-effect/docs/getting-started>
 
 ## Run application
 
